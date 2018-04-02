@@ -1,0 +1,62 @@
+/* pages/chat/chat.wxss */
+
+
+.chat-page {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  /* background: rgb(238, 238, 238); */
+}
+
+.chat-box-scroll {
+  height: calc(100vh - 115rpx);
+  width: 100vw;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  background: #8ee;
+}
+
+
+.chat-input-bar {
+  background-color: rgb(238, 238, 238);
+  height: 90rpx;
+  width: 100vw;
+  padding: 10rpx 14rpx;
+  position: fixed;
+  bottom: 0rpx;
+  box-sizing: border-box;
+  display: flex;
+  border-top: 1rpx solid rgb(218, 218, 218);
+  z-index: 100;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+
+.chat-input-bar .chat-input-field {
+  background-color: white;
+  height: 2.5em;
+  width: calc(100vw - 85px);
+  padding: 6px 0 15px 10rpx;
+  position: relative;
+  border: 1rpx solid rgb(218, 218, 218);
+  border-radius: 2px;
+  box-sizing: border-box;
+  color:black;
+  font-size: 30rpx;
+}
+
+.baby .chat-input-bar .chat-input-field {
+  background-color: rgba(216,216,216,0.30);
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  /* color: #B4B4B4; */
+  color: rgb(20,20,20);
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center;
+}

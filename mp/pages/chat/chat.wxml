@@ -1,0 +1,37 @@
+<!--pages/chat/chat.wxml-->
+<view class='chat-page'>
+
+  <view
+    class='chat-input-scroll'
+    scroll-y
+    scroll-top="{{scrollTop}}"
+  >
+
+    <view
+      wx:for='{{chatItems}}'
+      wx:key='{{item.idx}}'
+      class='chat-item'
+    >
+      <text>
+        {{item.text}}
+      </text>
+    </view>
+
+  </view>
+
+  <view class='chat-input-bar'>
+
+    <view class='chat-input-field'>
+      <input
+        bindblur='blurInput'
+        value='{{inputValue}}'
+        focus='{{focus}}'
+        adjust-position=true
+        cursor-spacing='30'
+        placeholder="开始和我聊天吧。。。"
+        data-nodes='{{nodes}}'>
+      </input>
+    </view>
+  </view>
+
+</view>
