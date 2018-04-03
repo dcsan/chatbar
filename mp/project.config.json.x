@@ -9,9 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "wx307d77c1cdabd6af",
-	"projectname": "chatbar3",
-	"isGameTourist": false,
+	"appid": "touristappid",
+	"projectname": "chatbar",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -21,13 +20,23 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "chat",
+					"pathName": "pages/chat/chat"
+				}
+			]
 		}
 	}
 }

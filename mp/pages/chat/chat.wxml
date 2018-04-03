@@ -24,6 +24,7 @@
     <view class='chat-input-field'>
       <input
         bindblur='blurInput'
+        bindfocus='focusInput'
         value='{{inputValue}}'
         focus='{{focus}}'
         adjust-position=true

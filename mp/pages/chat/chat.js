@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    chatItems: []
   },
 
   onLoad: function (options) {
@@ -23,8 +23,12 @@ Page({
     })
   },
 
-  onBlur: function(options) {
+  blurInput: function(options) {
     console.log('blurred')
+  },
+
+  focusInput: function(options) {
+    console.log('focused')
   },
 
   bindKeyInput: function(options) {
